@@ -1,0 +1,87 @@
+@import "../2-mixins/mixins";
+@import "../1-variables/variables";
+
+.wrapper {
+    margin: 30px;
+
+    &-breadscrumbs {
+    }
+
+    &-content {
+        margin-left: 20px;
+
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            // position: absolute;
+        }
+    }
+}
+
+.actions {
+    width: 25%;
+
+    &-button {
+        text-align: right;
+    }
+}
+
+.title {
+    display: flex;
+    margin-top: 40px;
+
+    &_content {
+        // line-height: 100px;
+    }
+
+    &_SAVED {
+        @include common-styles-title-status;
+        @include common-styles-status-Saved;
+    }
+
+    &_SUBMITTED {
+        @include common-styles-title-status;
+        @include common-styles-status-Submitted;
+    }
+
+    &_APPROVED {
+        @include common-styles-title-status;
+        @include common-styles-status-Approved;
+    }
+
+    &_REJECTED {
+        @include common-styles-title-status;
+        @include common-styles-status-Rejected;
+    }
+
+    &_PUBLISHED {
+        @include common-styles-title-status;
+        @include common-styles-status-Published;
+    }
+
+    &_UNPUBLISHED {
+        @include common-styles-title-status;
+        @include common-styles-status-Unpublished;
+    }
+
+    &_DELETED {
+        @include common-styles-title-status;
+        @include common-styles-status-Deleted;
+    }
+
+    &_OPEN {
+        @include common-styles-title-status;
+        @include common-styles-status-Open;
+    }
+
+    &_CLOSED {
+        @include common-styles-title-status;
+        @include common-styles-status-Closed;
+    }
+
+    &_UNKNOWN {
+        @include common-styles-title-status;
+        @include common-styles-status-Open;
+    }
+}

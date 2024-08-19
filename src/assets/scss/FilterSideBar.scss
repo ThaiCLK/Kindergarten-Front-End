@@ -1,0 +1,41 @@
+.filter-component {
+    background-color: #fdfbfc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h6 {
+        color: #3598be;
+    }
+
+    .ant-form-item-label {
+        label {
+            color: #3598be;
+        }
+    }
+
+    .ant-form-item {
+        .ant-input,
+        .ant-select-selector,
+        .ant-checkbox-wrapper {
+            color: #959394;
+
+            &.ant-input,
+            &.ant-select-selector {
+                border-color: #3598be;
+            }
+        }
+    }
+
+    .ant-slider-track {
+        background-color: #3598be;
+    }
+
+    .ant-slider-handle {
+        border-color: #3598be;
+    }
+}
+
+.ant-form-item {
+    margin-bottom: 16px;
+}

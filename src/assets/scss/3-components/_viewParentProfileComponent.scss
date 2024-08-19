@@ -1,0 +1,69 @@
+.custom-tabs .nav-link,
+.nav-tabs {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    border-bottom-color: #40a9ff;
+}
+
+.custom-tabs .nav-link,
+.nav-item {
+    border-radius: 0%;
+    border-bottom: none;
+}
+
+.custom-tabs .nav-link {
+    border-color: #DBDBDB;
+    background-color: #F2F2F2;
+}
+
+.tab-content-border {
+    border-top: none;
+    border-bottom: 1px solid #40a9ff;
+    border-left: 1px solid #40a9ff;
+    border-right: 1px solid #40a9ff;
+    padding: 20px 50px 50px 50px;
+    margin-bottom: 50px;
+}
+
+.custom-tabs .nav-link.active {
+    border-left-color: #40a9ff;
+    border-right-color: #40a9ff;
+    border-top-color: #40a9ff;
+    color: black; // Màu của tab khi được chọn
+    font-weight: bold; // In đậm chữ khi tab được chọn
+}
+
+.button-group {
+    margin-top: 50px;
+
+    button {
+        font-size: 16px;
+        padding: 23px 65px;
+        border-radius: 8px;
+    }
+}
+
+.form-style {
+    margin: 20px auto;
+    text-align: left;
+}
+
+.form-control-style-i {
+    border-color: #40a9ff;
+    font-size: 14px;
+    height: 45px;
+}
+
+.select-address-border .ant-select-selector {
+    border-color: #40a9ff !important;
+}
+
+.form-item-wrapper.ant-form-item-has-error .ant-select-selector {
+    border-color: red !important;
+}
+
+.select-address-border {
+    border-color: #40a9ff !important;
+    font-size: 14px;
+    height: 45px;
+}

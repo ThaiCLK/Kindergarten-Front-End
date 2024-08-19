@@ -1,0 +1,107 @@
+// .ant-form-item {
+//     .ant-input,
+//     .ant-select-selector,
+//     .ant-checkbox-wrapper {
+//         color: #959394;
+
+//         &.ant-input,
+//         &.ant-select-selector {
+//             border-color: #3598be;
+//         }
+//     }
+// }
+// đoạn này bị ăn vào form khác (add new school, view profile...)
+
+.city-district {
+    border-radius: 0px !important
+}
+
+.search-bt {
+    margin: 0px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    border-radius: 0px !important;
+    background-color: #2196f3;
+    color: aliceblue;
+}
+
+.school-card {
+    display: flex;
+    border: 2px solid #89b5cc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.school-image {
+    object-fit: cover;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 200px;
+    width: 360px;
+    max-width: 360px;
+    max-height: 200px;
+}
+
+.icon_title {
+    font-size: 13px;
+}
+
+.school-info {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.info-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.rating {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.icon_infor {
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars {
+    color: gold;
+}
+
+.facilities {
+    margin-top: 20px;
+}
+
+.facility-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.facility-tag {
+    background-color: #e0f7fa;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    color: #2196f3;
+    font-weight: bold;
+}
+
+.request-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Đổ bóng */
+
+}
+
+/* Thêm các style cho icon nếu bạn sử dụng font icon */

@@ -1,0 +1,19 @@
+.inputItem #error_phone,
+.inputItem #error_role,
+.inputItem #error_dob,
+.inputItem #error_email,
+.inputItem #error_fullname {
+    position: static !important;
+    top: 100% !important;
+    left: 0 !important;
+    width: 100% !important;
+    display: block !important;
+    margin-top: 0.25rem !important;
+}
+
+.custom-disabled:disabled {
+    background-color: #FFFFFF !important; /* Màu nền khi bị vô hiệu hóa */
+    // color: #6c757d; /* Màu chữ khi bị vô hiệu hóa */
+    cursor: not-allowed; /* Hiệu ứng con trỏ khi bị vô hiệu hóa */
+    border: 1px solid #ced4da; /* Đường viền của trường nhập liệu */
+}

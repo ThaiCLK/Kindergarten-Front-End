@@ -1,0 +1,83 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-border {
+    padding: 30px 50px 20px 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.padded-container {
+    padding: 60px;
+    background: white;
+}
+
+.container-style {
+    display: flex;
+    justify-content: center;
+}
+
+.forgotpass {
+    text-align: right;
+}
+
+.forgotpass-button {
+    font-size: 14px !important;
+    color: solid blue;
+}
+
+.form-logout {
+    padding: 45px;
+    text-align: center;
+    background-color: white;
+    z-index: 1070;
+}
+
+.icon-logout {
+    font-size: 35px;
+    color: red;
+}
+
+.form-style {
+
+    text-align: left;
+}
+
+.form-control-style {
+    background-color: rgb(128 128 128 / 10%) !important;
+    font-size: 14px !important;
+    height: 40px;
+}
+
+.button-style {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.button-logout {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+}
+
+.login-signup-button1 {
+    padding-left: 160px !important;
+    padding-right: 160px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.login-signup-button2 {
+    padding-left: 153px !important;
+    padding-right: 153px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.term-and-con-button {
+    font-size: 16px !important;
+    color: solid blue;
+}

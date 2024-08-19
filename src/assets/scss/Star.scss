@@ -1,0 +1,61 @@
+.pull-button {
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: #333;
+    color: aliceblue;
+    width: 35.46px;
+    height: 26px;
+    text-align: center;
+    margin-right: 0px !important;
+    border-radius: 0px !important;
+}
+.star-rating {
+    display: flex;
+    align-items: center;
+    background-color: #c4c4c4;
+}
+
+.rating-value {
+    color: white;
+    font-weight: bold;
+    border-radius: 0px !important;
+    text-align: center;
+    margin-right: 0px !important;
+}
+
+.ant-rate {
+    font-size: 24px;
+    display: flex;
+
+    .ant-rate-star {
+        margin-right: 0;
+        padding: 0;
+        position: relative;
+        margin-inline-end: 0px !important;
+
+        .anticon-star {
+            position: relative;
+            z-index: 1;
+
+            svg {
+                fill: white;
+            }
+        }
+
+        &.ant-rate-star-full {
+            background-color: #fadb14;
+        }
+
+        &.ant-rate-star-half {
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50%;
+                height: 100%;
+                background-color: #fadb14;
+            }
+        }
+    }
+}

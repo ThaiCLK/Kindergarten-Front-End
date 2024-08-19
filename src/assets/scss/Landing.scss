@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search-section {
+    display: flex;
+    text-align: center;
+    background-size: cover;
+    background-position: bottom;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    justify-content: center;
+    background-image: url("../img/dochoi.jpg");
+}
+
+.search-box,
+.location-search {
+    margin: 20px 0;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.input-group input {
+    padding: 9px;
+    border-radius: 5px;
+    width: 300px;
+    border: 2px solid #19a0fa;
+}
+
+.input-group select {
+    padding: 12px;
+    border-radius: 5px;
+    height: 46px;
+    width: 150px;
+    border: 2px solid #19a0fa;
+}
+
+.input-group button {
+    padding: 9px 20px;
+    border-radius: 5px;
+    border: 2px solid #19a0fa;
+    background-color: #19a0fa;
+    color: #f9f9f9;
+}
+
+:root {
+    --select-border-color: #0099ff;
+    --select-border-color-dark: #0254ac;
+}
+
+.search-section-div {
+    .search-section {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 5px;
+
+        .container {
+            h1 {
+                font-family: sans-serif;
+            }
+
+            .search-box {
+                h3 {
+                    font-family: sans-serif;
+                }
+
+                .input-group {
+                    display: flex;
+
+                    input {
+                        outline: #0254ac;
+
+                        &:focus {
+                            border-color: var(--select-border-color);
+                        }
+                    }
+
+                    button {
+                        padding: 10px 20px;
+                        background-color: var(--select-border-color);
+                        color: white;
+                        border: none;
+                        border-radius: 0 5px 5px 0;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: var(--select-border-color-dark);
+                        }
+                    }
+                }
+            }
+
+            .location-search {
+                .input-group {
+                    display: flex;
+
+                    select {
+                        appearance: none;
+                        background: white url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><path fill="%23007bff" d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+                        background-size: 25px;
+                        outline: none;
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
+
+                        &:focus {
+                            border-color: var(--select-border-color);
+                        }
+
+                        &::-ms-expand {
+                            display: none;
+                        }
+                    }
+
+                    button {
+                        padding: 10px 20px;
+                        background-color: var(--select-border-color);
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: var(--select-border-color-dark);
+                        }
+                    }
+                }
+            }
+
+            .note {
+                text-align: center;
+                color: black;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+.testimonials {
+    .testimonial-grid {
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr); // 2 testimonials per row
+        gap: 40px; // Space between testimonials
+        margin-bottom: 40px;
+
+        .testimonial {
+            display: ruby;
+            padding: 10px;
+            border: 2px solid #eaeaea;
+            border-radius: 10px;
+
+            img {
+                border-radius: 50%;
+                width: 100px;
+                min-width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+
+            .testimonial-header {
+                text-align: left;
+                display: flex;
+                align-items: flex-start;
+                gap: 25px;
+                margin-bottom: 10px;
+
+                .stars-hompage {
+                    display: flex;
+                    font-size: x-large;
+
+                    .star-color {
+                        color: #ddd; // Default star color
+                    }
+
+                    .filled-color {
+                        color: #ffc107; // Filled star color
+                    }
+                }
+            }
+
+            p {
+                text-align: left;
+                margin: 0;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.about-us {
+    padding: 50px;
+    background-color: #c8e7ec;
+    text-align: center;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.about-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 60px;
+}
+
+.about-box .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.about-box svg {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.visit-us-content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 468px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.visit-us-info {
+    grid-column: 1 / span 1;
+    text-align: center;
+}
+
+.visit-us-partners {
+    grid-column: 2 / span 1;
+    text-align: center;
+}
+
+.partner {
+    text-align: center;
+    flex: 1;
+}
+
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .partner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            .icon {
+                font-size: 50px;
+                transition:
+                    color 0.3s,
+                    transform 0.3s;
+
+                &:hover {
+                    color: #007bff;
+                    transform: scale(1.1);
+                }
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+/* Đảm bảo trang chiếm toàn bộ chiều cao */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Flexbox container cho trang */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Nội dung chính sẽ chiếm không gian còn lại */
+.content-wrap {
+    flex: 1;
+}
+
+/* Đảm bảo footer nằm ở dưới cùng */
+footer {
+    margin-top: auto;
+}

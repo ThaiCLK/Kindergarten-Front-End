@@ -1,0 +1,89 @@
+.counseling-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.counseling-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counseling-form h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.counseling-form p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    width: 300px;
+    margin: auto;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.note {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 20px;
+    width: 370px;
+    margin: auto;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cancel-btn,
+.submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cancel-btn {
+    background-color: #f1f1f1;
+    color: #333;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    width: 150px;
+}

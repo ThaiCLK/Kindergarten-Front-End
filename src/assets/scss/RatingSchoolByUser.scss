@@ -1,0 +1,106 @@
+.rating-form {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.rating-form h2 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.rating-form p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.rating-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rating-item label {
+    font-size: 14px;
+    color: #333;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-value {
+    background-color: #333;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.feedback-section {
+    margin-top: 20px;
+}
+
+.feedback-section label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+// button:first-child {
+//   background-color: #f0f0f0;
+//   color: #333;
+// }
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Điều chỉnh kích thước sao */
+.star {
+    font-size: 24px;
+    color: #e4e5e9;
+    cursor: pointer;
+}
+
+.star.filled {
+    color: #ffc107;
+}
+.icon_title{
+    font-weight: normal;
+}

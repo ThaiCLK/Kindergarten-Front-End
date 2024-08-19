@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3eeff;
+    padding: 10px;
+    height: 60px;
+
+    .new-school {
+        display: flex;
+        align-items: center;
+        font-size: 23px;
+
+        .plus-icon {
+            font-size: 20px;
+            color: #000;
+            margin-right: 5px;
+        }
+
+        .text {
+            font-size: 23px;
+            font-weight: bold;
+            color: #000;
+        }
+    }
+}
+
+.new-school2 {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    color: #000305;
+    transition: color 0.3s;
+
+    &:hover {
+        color: #585858;
+    }
+
+    .text {
+        margin-left: 5px;
+    }
+}
+
+.logout {
+    font-size: 16px;
+    color: #1890ff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    .logout-text {
+        display: flex;
+        align-items: center;
+    }
+}

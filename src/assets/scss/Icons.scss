@@ -1,0 +1,39 @@
+.input-with-icon {
+    position: relative;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.invalid-feedback {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: block;
+    margin-top: 0.25rem;
+}
+
+.email-icon,
+.password-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #ccc;
+}
+
+.email-input-group {
+    .form-control {
+        padding-left: 40px;
+    }
+}
+
+.password-input-group {
+    .form-control {
+        padding-left: 40px;
+    }
+}

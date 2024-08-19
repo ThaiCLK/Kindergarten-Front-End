@@ -1,0 +1,69 @@
+// components/_buttons.scss
+@import "../2-mixins/mixins";
+@import "../1-variables/variables";
+
+.Activated {
+    @include common-styles-status-table;
+    @include common-styles-status-Activated;
+}
+
+.Deactivated {
+    @include common-styles-status-table;
+    @include common-styles-status-Deactivated;
+}
+
+.Saved {
+    @include common-styles-status-table;
+    @include common-styles-status-Saved;
+}
+
+.Submitted {
+    @include common-styles-status-table;
+    @include common-styles-status-Submitted;
+}
+
+.Approved {
+    @include common-styles-status-table;
+    @include common-styles-status-Approved;
+}
+
+.Rejected {
+    @include common-styles-status-table;
+    @include common-styles-status-Rejected;
+}
+
+.Published {
+    @include common-styles-status-table;
+    @include common-styles-status-Published;
+}
+
+.Unpublished {
+    @include common-styles-status-table;
+    @include common-styles-status-Unpublished;
+}
+
+.Deleted {
+    @include common-styles-status-table;
+    @include common-styles-status-Deleted;
+}
+
+.Open {
+    @include common-styles-status-table;
+    @include common-styles-status-Open;
+}
+
+.Closed {
+    @include common-styles-status-table;
+    @include common-styles-status-Closed;
+}
+
+.Not_Enrolled {
+    @include common-styles-status-table;
+    width: 150px;
+    @include common-styles-status-Not_Enrolled;
+}
+
+.Enrolled {
+    @include common-styles-status-table;
+    @include common-styles-status-Closed;
+}

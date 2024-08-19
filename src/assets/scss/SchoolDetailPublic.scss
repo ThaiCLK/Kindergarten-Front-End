@@ -1,0 +1,145 @@
+.icon_title {
+    font-weight: bold;
+}
+
+.request-button, .secondButton {
+    width: 140px;
+    max-width: 140px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+
+.request-button:hover, .secondButton:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    background-color: #4CAF50; 
+    color: #fff; 
+}
+
+
+.rating {
+    margin: 10px;
+    margin-top: 110px;
+}
+.rating-text {
+    margin-left: 10px;
+}
+.overviewTab {
+    border: 1px solid #89b5cc;
+    margin-top: -17px;
+}
+.custom-checkbox-disabled {
+    width: 340px;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.label {
+    width: 190px;
+    max-width: 190px; /* Adjust width as needed */
+}
+
+.rating-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    height: 8px;
+}
+
+.segments {
+    background-color: #f39c12;
+    height: 100%;
+    width: 80px;
+}
+
+.segments.empty {
+    background-color: #e0e0e0;
+}
+
+.score {
+    margin-left: 10px;
+}
+
+.overviewTab {
+    padding: 30px;
+}
+
+.button-group-detail {
+    display: flex;
+}
+
+.rating-button-detail {
+    border: 1px solid #f0c14b;
+    background-color: #fff;
+    color: #f0c14b;
+    // padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
+    height: 30px;   
+    align-self: center;
+    padding: 0px !important;
+    width: 60px;
+}
+
+.rating-button-detail.active {
+    background-color: #f0c14b;
+    color: #fff;
+}
+
+.rating-button-detail:hover {
+    background-color: #f0c14b;
+    color: #fff;
+}
+
+.details-left-wrapper {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.details-left {
+    margin: 10px 40px;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .details-left img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.divider {
+    width: 100%;
+    background-color: rgb(133, 133, 211);
+    height: 1px;
+    margin: 10px 1px;
+}
+.line-doc {
+    width: 1px;
+    background-color: rgb(133, 133, 211);
+    height: 300px;
+}
+.details-right {
+    padding: 10px;
+    margin: 10px;
+}
+  
+.details-box{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid  #89B5CC;
+  border-radius: 10px;
+
+}

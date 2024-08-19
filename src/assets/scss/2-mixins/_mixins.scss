@@ -1,0 +1,90 @@
+@mixin common-styles-status-table {
+    font-weight: $font-weight;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    text-align: $text-align;
+    margin: $margin;
+    align-content: $align-content;
+}
+
+@mixin common-styles-title-status {
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 115px;
+    margin-left: 50px;
+    align-content: center;
+    text-align: center;
+    height: 35px;
+}
+
+@mixin common-styles-status-Open {
+    background-color: #f7f7f9;
+    color: #6f727a;
+    border: 2px solid #e3e5e8;
+}
+
+@mixin common-styles-status-Closed {
+    background-color: #dcfbea;
+    color: #249f5d;
+    // border: 2px solid #EBFDF3;
+}
+
+@mixin common-styles-status-Activated {
+    background-color: #dcfbea;
+    color: #249f5d;
+}
+
+@mixin common-styles-status-Deactivated {
+    background-color: #fbdcdc;
+    color: #9f2424;
+    border: 2px solid #dcfbea;
+}
+
+@mixin common-styles-status-Saved {
+    background-color: #d3eeff;
+    color: #1a3c3b;
+    border: 2px solid #ebfdf3;
+}
+
+@mixin common-styles-status-Submitted {
+    background-color: #9ac08d;
+    color: #151d28;
+    border: 2px solid #e8e9ec;
+}
+
+@mixin common-styles-status-Approved {
+    background-color: #fdffa5;
+    color: #797b7c;
+    border: 2px solid #e7fcd6;
+}
+
+@mixin common-styles-status-Rejected {
+    background-color: #fbdcdc;
+    color: #a53030;
+    border: 2px solid #e6f9ef;
+}
+
+@mixin common-styles-status-Published {
+    background-color: #dcfbea;
+    color: #2ca363;
+}
+
+@mixin common-styles-status-Unpublished {
+    background-color: #f4f9fd;
+    color: #73797f;
+    border: 2px solid #f0e4d2;
+}
+
+@mixin common-styles-status-Deleted {
+    background-color: #9390c7;
+    color: #dfdfdf;
+    border: 2px solid #e6f9ef;
+}
+
+@mixin common-styles-status-Not_Enrolled {
+    background-color: #f7f7f9;
+    color: #8a8c93;
+    border: 2px solid #e9eaee;
+}
